@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/player-details/static/css/main.cc7e12cb.css",
+    "main.js": "/player-details/static/js/main.fab47e0c.js",
+    "index.html": "/player-details/index.html",
+    "main.cc7e12cb.css.map": "/player-details/static/css/main.cc7e12cb.css.map",
+    "main.fab47e0c.js.map": "/player-details/static/js/main.fab47e0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc7e12cb.css",
+    "static/js/main.fab47e0c.js"
+  ]
+}
