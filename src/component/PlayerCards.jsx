@@ -33,7 +33,7 @@ const PlayerCards = () => {
     const filter = (event) => {
         const val = event.target.value.toLowerCase()
         const filterbyName = allPlayers.filter(
-            player => (`${player.PFName} ${player.PDName}`.toLowerCase().includes(val)
+            player => (`${player.PFName} ${player.PDName} ${player.TName}`.toLowerCase().includes(val)
 
             )
         )

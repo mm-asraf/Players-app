@@ -16,11 +16,11 @@ const PlayerList = ({ playerData }) => {
 
             <div className="player_details">
                 <h3>{playerData.PFName}</h3>
-                <h3>{playerData.TName}</h3>
-                <p>SkillDesc: {playerData.SkillDesc}</p>
-                <p>Value: {playerData.Value}</p>
-                <p>{playerData.CCode} vs {playerData.CCode}</p>
-                <p>Upcoming Matches: {playerData.MDate}</p>
+                <p className="firstP">{playerData.TName}</p>
+                <p className="secp" >SkillDesc: {playerData.SkillDesc}</p>
+                <p className="secp" >Value: {playerData.Value}</p>
+                <p className="secp" >{playerData.CCode} vs {playerData.UpComingMatchesList[0].VsCCode}</p>
+                <p className="secp" >Upcoming Matches: {playerData.UpComingMatchesList[0].MDate}</p>
 
 
             </div>
