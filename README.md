@@ -1,8 +1,8 @@
-# Sportz Interactive Machine Coding
+# Sportz Interactive
 
 - A basic app where we can fetch data by Player Name and Team Name
 
-## to run this app in your local machine;
+## to run this app in your local machine use this command
 
 - npm install
 - npm start
