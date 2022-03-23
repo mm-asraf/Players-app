@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@200&family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@400;500&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
 .container {
   margin: 2rem 2rem 2rem 0;
   padding: 1.5rem;
@@ -14,11 +20,13 @@
 .firstP {
   text-align: center;
   font-size: 24px;
+  font-weight: 600;
 }
 
 .secp {
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .container:hover {
@@ -26,7 +34,7 @@
 }
 
 .image > img {
-  width: 230px;
+  width: 250px;
 }
 
 .App {
@@ -40,7 +48,7 @@
 
 .search-box {
   outline: none;
-  width: 100%;
+  width: 90%;
   border: 1px solid grey;
   font-size: 1rem;
   padding: 1rem;

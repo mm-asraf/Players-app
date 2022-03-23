@@ -20,7 +20,7 @@ const PlayerList = ({ playerData }) => {
                 <p className="secp" >SkillDesc: {playerData.SkillDesc}</p>
                 <p className="secp" >Value: {playerData.Value}</p>
                 <p className="secp" >{playerData.CCode} vs {playerData.UpComingMatchesList[0].VsCCode}</p>
-                <p className="secp" >Upcoming Matches: {playerData.UpComingMatchesList[0].MDate}</p>
+                <p className="secp" > {playerData.UpComingMatchesList[0].MDate}</p>
 
 
             </div>
