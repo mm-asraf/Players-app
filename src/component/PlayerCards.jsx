@@ -43,7 +43,7 @@ const PlayerCards = () => {
     return (
 
         <div className='cards-container'>
-            <h1>Players Details</h1>
+            <h1 className="sportz">Sportz Interactive</h1>
             <input className="search-box" placeholder="Search Your Player..." onInput={filter} />
 
             {players.map((player, index) => {
