@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import PlayerList from './PlayerList';
+import './Playerlist.css'
+
 
 const PlayerCards = () => {
 
     const [players, setPlayers] = useState([])
+    const [allPlayers, setAllPlayers] = useState([])
 
     useEffect(() => {
 
@@ -19,6 +22,7 @@ const PlayerCards = () => {
             }
 
             setPlayers(playerData)
+            setAllPlayers(playerData)
 
 
         })()
@@ -26,9 +30,21 @@ const PlayerCards = () => {
     }, [])
 
 
+    const filter = (event) => {
+        const val = event.target.value.toLowerCase()
+        const filterbyName = allPlayers.filter(
+            player => (`${player.PFName} ${player.PDName}`.toLowerCase().includes(val)
+
+            )
+        )
+        setPlayers(filterbyName)
+    }
+
     return (
 
-        <div className='card'>
+        <div className='cards-container'>
+            <h1>Players Details</h1>
+            <input className="search-box" placeholder="Search Your Player..." onInput={filter} />
 
             {players.map((player, index) => {
                 return (
