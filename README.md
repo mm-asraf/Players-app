@@ -1,4 +1,4 @@
-# Sportz Interactive
+# Players App
 
 - A basic app where we can fetch data by Player Name and Team Name
 
